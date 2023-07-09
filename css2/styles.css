@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #687280;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #14151a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #f8f4f4;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    input[type="submit"] {
+        width: 20%;
+    }
+}
+ 
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #cecece;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.edit-form {
+    display: none;
+    margin-top: 20px;
+}
+
+.edit-form h3 {
+    margin-bottom: 10px;
+}
+
+.edit-form input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.edit-form input[type="submit"],
+.edit-form button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-form button {
+    background-color: #ccc;
+    margin-left: 5px;
+}
+.delete-btn {
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.edit-btn {
+    padding: 8px 12px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.edit-btn:hover {
+    background-color: #1976d2;
+}
+
+.logout-btn {
+    float: right;
+    margin-right: 10px;
+}
+#logout2{
+    background-color:transparent; 
+    box-shadow: none; 
+    float: right;
+}
+
